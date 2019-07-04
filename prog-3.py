@@ -1,6 +1,6 @@
-tup123 = ('u', 'a', 'o', 'i', 'e')
-ip123 = input().lower()
-if ip123 in tup123:
+tup1234 = ('u', 'a', 'o', 'i', 'e')
+ip1234 = input().lower()
+if ip1234 in tup1234:
   print('Vowel')
 else:
   print('Consonant')
