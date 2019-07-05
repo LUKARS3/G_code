@@ -1,3 +1,3 @@
-ip = input().split()
-for i in ip:
-	print(i[::-1], end=' ')
+ip1 = input().split()
+for i1 in ip1:
+	print(i1[::-1], end=' ')
