@@ -1,6 +1,4 @@
-size, ele = map(int, input().split())
-lst = [x for x in input().split()]
-for i in range(1, ele+1):
-  if i == ele:
-    print(max(lst))
-  lst.remove(max(lst))
+size1, ele1 = map(int, input().split())
+lst1 = [int(x) for x in input().split()]
+lst12 = sorted(lst1)
+print(lst12[size1-ele1])
