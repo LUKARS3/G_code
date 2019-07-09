@@ -8,8 +8,8 @@ else:
     zero_pop = len(s11)
 lst1 = list('0') * zero_pop
 for i1 in range(s):
-    if s11[i] == s22[i]:
-        lst1[i] = '1'
+    if s11[i1] == s22[i1]:
+        lst1[i1] = '1'
 
 print(lst1.count('0'))
 # print(lst)
