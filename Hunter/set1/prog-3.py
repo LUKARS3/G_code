@@ -1,4 +1,4 @@
-n = int(input())
+n1 = int(input())
 lst = [x for x in input().split()]
 lst1 = []
 for i in range(len(lst)):
