@@ -1,16 +1,15 @@
-s11, s22 = map(str, input().split())
-# zero_pop = len(s2)
-if len(s11) < len(s22):
-    s = len(s11)
-    zero_pop = len(s22)
+st11, st22 = map(str, input().split())
+if len(st11) < len(st22):
+    s = len(st11)
+    zero_pop = len(st22)
 else:
-    s = len(s22)
-    zero_pop = len(s11)
+    s = len(st22)
+    zero_pop = len(st11)
 lst1 = list('0') * zero_pop
 for i1 in range(s):
-    if s22 in s11 or s11 in s22:
+    if st22 in st11 or st11 in st22:
         lst1[i1] = '1'
-    if s11[i1] == s22[i1]:
+    if st11[i1] == st22[i1]:
         lst1[i1] = '1'
 
 print(lst1.count('0'))
