@@ -1,6 +1,6 @@
-inp = input()
-inp = inp.strip('0')
-if inp == inp[::-1]:
+ip = input()
+ip = ip.strip('0')
+if ip == ip[::-1]:
     print('YES')
 else:
     print('NO')
